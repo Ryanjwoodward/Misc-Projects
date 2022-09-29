@@ -1,0 +1,110 @@
+/*
+    Author: Ryan Woodward
+    Title: Indrik Password Manager
+    Team: Ouroboros Software Group
+    Description: TStyle page for the main/ login page for the password manager
+
+    DEV NOTES:
+*/
+
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#primarySect{
+    
+    min-height: 890px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallImage{
+
+    position: absolute;
+}
+
+.initContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167,19,19,1);
+    position: relative;
+    height: 510px;
+    width: 410px;
+    padding: 5px;
+    background: transparent;
+}
+
+
+#formContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color:rgba(71, 68, 68, 1);
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+    background: transparent;
+}
+
+.logoI{
+
+    width: auto;
+    max-height: 200px;
+    padding: 10px;
+}
+
+#fieldContainer{
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    color: rgb(255,255,255, .7);
+    text-shadow: #a71313;
+    font-size: 20px;
+}
+
+.loginFields{
+
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    text-align: left;
+}
+
+input{
+
+    background-color: rgba(184, 183, 183, 0.8);
+    border-color: #a71313;
+    color: black;
+    font-weight: 100;
+}
+
+.logBtn{
+
+    background-color: #d6a444;
+    width: 130px;
+    height: 35px;
+    padding: 3px;
+    margin: 20px;
+    color: #a71313;
+    border-color: #a71313;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+

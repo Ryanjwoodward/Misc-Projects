@@ -1,0 +1,47 @@
+THIS PROGRAM IS DESIGNED WITH THE DEVELOPMENT TEAM, PROJECTS, and SDLC in mind.
+
+TEAMS
+communication
+Sharing ideas and thoughts
+development team structure
+diverse perspectives 
+creative and interactive
+
+PROJECTS
+progress
+Goals
+tasks
+
+SDLC
+
+
+TEAMS
+-Unity
+-Diversity
+-Commitment
+-Communication
+
+PROJECTS
+-Planning 
+-Design
+-Creation
+-Goals
+
+SDLC
+-Structure
+-Efficient
+-Guidance
+-Any SDLC Paradigm
+
+What makes a great team? We think some of the important qualities are Diversity, Unity, Communication, Creativity, Commitment, Vision
+Ouroboros provides a team with an excellent platform to deliver an optimal avenue to hone and utilize these qualities.
+
+Project maintenance made effortless. Ouroboros streamlines the planning process by simplifying bug tracking, task assignments, goal highlighting,
+project design, and linking the whole project to the desired Software Development Lifecycle paradigm.
+
+SDLC,
+
+Which SDLC do you wish to use? Irrelevant. Ouroboros offers guided support for the Seven most popular SDLC paradigms and Dev Ops.
+
+
+ABOUT PAGE, essentially a small resume for me.

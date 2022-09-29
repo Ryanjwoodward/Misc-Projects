@@ -1,0 +1,270 @@
+<!--
+Author: Ryan Woodward
+Team: RAMM
+Project Name: Nodlehs
+Date:
+Description: HTML File for Ouroboros Project Management System
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name= "viewport" content= "width=device-width, initial-scale= 1.0">
+        <meta http-quiz="X-UA-Compatible" content= "ie=edge">
+        <title>Ouroboros Home</title>
+        <link rel= "stylesheet" href="homeStyle.css"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+
+        <!--------Header Section-------->
+        <section class="pageHeader">
+
+            <nav>
+                <a href="homePage.html">
+                    <img src="Files/primaryLogo_adobespark.png">
+                </a>
+
+                <div class="navLinks" id="naviLinks">
+                    <i id="navfa" class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">LOGIN</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+            <div class="bannerText">
+                    <h1>Time For An Upgrade</h1>
+                    <p>
+                        Ouroboros Project Management System, revolves around the team, their projects, and
+                        provides a <br> unique tailored way to inlcude your SDLC paradigm. Get Ready for an Upgrade.
+                    </p>
+
+                    <a href="#" class="oButton">Start Here</a>
+            </div>
+
+        </section>
+
+        <!--------Offers Section-------->
+        <section class="offers">
+
+            <h1 class="h1Offers" >What does Ouroboros offer? </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper odio ut purus sagittis, vitae aliquet nisi convallis.</p>
+        
+            <div class="oRow">
+                <div class="offersColumn">
+                    <h3 class="h3Offers">Teams</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper odio ut purus sagittis,
+                         vitae aliquet nisi convallis. Morbi nec tortor et sapien aliquam lacinia id malesuada felis. Mauris 
+                    </p>
+                </div>
+    
+                <div class="offersColumn">
+                    <h3 class="h3Offers">Projects</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper odio ut purus sagittis,
+                         vitae aliquet nisi convallis. Morbi nec tortor et sapien aliquam lacinia id malesuada felis. Mauris
+                    </p>
+                </div>
+    
+                <div class="offersColumn">
+                    <h3 class="h3Offers">SDLC</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper odio ut purus sagittis,
+                         vitae aliquet nisi convallis. Morbi nec tortor et sapien aliquam lacinia id malesuada felis. Mauris  
+                    </p>
+                </div>
+            </div>
+        
+        </section>
+
+        <!--------Approach to offers section-------->
+        <section class="approach">
+
+                <h1 class="h1Approach">The Ouroboros Approach</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                </p>
+
+                <div class="oRow">
+                    <div class="approachColumn">
+                        <img src="Files/teamsImage.png">
+                        <div class="titleLayer">
+                            <h3>Teams Defined Different</h3>
+
+                        </div>
+                    </div>
+                    <div class="approachColumn">
+                        <img src="Files/ProjectsImage.jpg">
+                        <div class="titleLayer">
+                            <h3>Project Organization Perfected</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="approachColumn">
+                        <img src="Files/SDLCImagefinal.jpg">
+                        <div class="titleLayer">
+                            <h3>Adopt Any SDLC Paradigm</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <!-------- Small About section-------->
+        <section class="aboutSect" >
+            
+            <h1 class="aboutTitle">About Us</h1>
+            <p>Curious to learn about Ouroboros' Dev Team RAMM? </p>
+            
+            <div class="oRow">
+                <div class="aboutColumn">
+                    <img class="aboutBoxes" src="Files/boxArtConcept.png">
+                    <div class="titleLayer" onclick="openBox1()">
+                        <h3>Who We Are</h3>
+                    </div>
+                </div>
+
+                <div id="boxTwo" class="aboutColumn" onclick="openBox2()">
+                    <img class="aboutBoxes" src="Files/boxArtConcept.png">
+                    <div class="titleLayer">
+                        <h3>What We're About</h3>
+                        
+                    </div>
+                </div>
+
+                <div class="aboutColumn">
+                    <img class="aboutBoxes" src="Files/boxArtConcept.png">
+                    <div class="titleLayer" onclick="openBox3()">
+                        <h3>Why Choose Us</h3>
+                     </div>
+                </div>
+            </div>
+
+            <div id="boxee1" class="flex-container">
+                <i id="boxesFa1" class="fa fa-times" onclick="closeBox1()"></i>
+                <p>
+                    LTHIS IS BOX DESCR ONE, consectetur adipiscing elit. Nulla ullamcorper odio ut purus sagittis,
+                         vitae aliquet nisi convallis. Morbi nec tortor et sapien aliquam lacinia id malesuada felis. Mauris  
+                </p>
+            </div>
+
+            <div id="boxee2" class="flex-container">
+                <i id="boxesFa2" class="fa fa-times" onclick="closeBox2()"></i>
+                <p>
+                    THIS IS BOX DESCR TWO consectetur adipiscing elit. Nulla ullamcorper odio ut purus sagittis,
+                         vitae aliquet nisi convallis. Morbi nec tortor et sapien aliquam lacinia id malesuada felis. Mauris  
+                </p>
+            </div>
+
+            <div id="boxee3" class="flex-container">
+                <i id="boxesFa3" class="fa fa-times" onclick="closeBox3()"></i>
+                <p>
+                    THIS IS BOX DESCR TWO consectetur adipiscing elit. Nulla ullamcorper odio ut purus sagittis,
+                         vitae aliquet nisi convallis. Morbi nec tortor et sapien aliquam lacinia id malesuada felis. Mauris  
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-------- Small Contact section-------->
+        <section class="contactSect">
+
+            <h1 class="contactTitle">Contact Us</h1>
+            <p>Comments, Questions, Criticism, (Job Offers?). There is a myriad ways to get in touch. <br> We look forward to hearing from you!</p>
+            
+            <div id="contactLogos" class="flex-container">
+                <div id="phoneContact" >
+                    <i  id="phoneIcon" class="fa fa-phone-square" onclick="openCont1()"></i>
+                    <p id="phoneP">+1 (602)-577-1929</p>
+                </div>
+                <div id="emailContact">
+                    <i id="emailIcon" class="fa fa-envelope-square" onclick="openCont2()"></i>
+                    <p id="emailP">ryanjwoodward@outlook.com</p>
+                </div>
+                <div id="adressContact">
+                    <i id="addressIcon" class="fa fa-map-marker" onclick="openCont3()"></i>
+                    <p id="addressP">2788 N. Pass Avenue, Rawl'Kha, Reaper's March, Tamriel</p>
+                </div>
+            </div>
+
+            <div class="cButtonDiv">
+                <a class="cButton" href="">
+                    Contact Us
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-------- Footer Section -------->
+        <section class="footerSect">
+
+            <div class="footerUpper">
+                <div id="rowContainer" class="flex-container">
+                    <div class="rowDesc">
+                        <h4>Ouroboros</h4>
+                        <div>
+                            <p>Our Team</p>
+                            <p>Our Goals</p>
+                            <p>Our Team</p>
+                            <p>Our Goals</p>
+                        </div>
+                    </div>
+                    <div class="rowDesc">
+                        <h4>ANOTHER ROW</h4>
+                        <div>
+                            <p>Our Team</p>
+                            <p>Our Goals</p>
+                            <p>Our Team</p>
+                            <p>Our Goals</p>
+                        </div>
+                    </div>
+                    <div class="rowDesc">
+                        <h4>References</h4>
+                        <div>
+                            <p>Lanuguages</p>
+                            <p>Environments</p>
+                            <p>Our Team</p>
+                            <p>Our Goals</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="socMedIconContainer" class="flex-container">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+                </div>
+
+                <div class="divider"></div>
+            </div>
+
+            
+
+            <div id="footerLower" class="flex-container">
+                <i class="fa fa-gavel" aria-hidden="true"></i>
+                <!--<i class="fa fa-copyright" aria-hidden="true"></i>-->
+                <h4>Ouroboros LLC</h4>
+
+            </div>
+
+
+        </section>
+
+
+        <script src="homeScript.js"></script>
+    </body>
+</html>

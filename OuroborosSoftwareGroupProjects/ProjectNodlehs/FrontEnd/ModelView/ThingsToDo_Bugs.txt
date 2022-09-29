@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------
+Author: Ryan Woodward
+Team: RAMM
+Project: Nodlehs
+Date:
+Description: Text file to maintain running notes of bugs, updates, etc.
+                for the Project Management System.
+--------------------------------------------------------------------------
+
+-------------
+homePage  .html/.js/.css
+--------------------------------------
+1- Update the Text and Descriptions throughout the homePage
+2- About us boxes have the animation open up between the clicked boxes
+3- the top right corner home logo needs to be changed
+
+
+-------------
+LoginPage .html/.js/.css
+--------------------------------------
+
+
+
+
+
+
+-------------
+
+--------------------------------------
+
+

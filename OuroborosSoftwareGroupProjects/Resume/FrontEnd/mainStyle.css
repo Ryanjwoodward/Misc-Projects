@@ -1,0 +1,76 @@
+/*
+    Author: Ryan Woodward
+    Title: Resume, Ryan Woodward
+    Team: Ouroboros Software Group
+    Description: This is the style file for my personal Resume, The purpose of this is to show case my general skills with a variety of languages.
+                Namely: HTML, CSS< Java Script, Java, SQL. and Frameworks: Angular, Spring, Node
+
+    DEV NOTES:
+*/
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #dbdbdb;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    max-width: 6000px;
+    background-color: rgb(17, 17, 17);
+}
+
+.headerSection{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px;
+}
+
+.personalInfo{
+
+    padding: 5px;
+}
+
+.personalInfo h1{
+
+    padding: 10px 5px 10px 10px;
+}
+
+.listContainer{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfoList{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 5px;
+}
+
+.contactInfoList li{
+
+    display: flex;
+    flex-direction: row;
+    padding: 2.5px;
+}
+
+.contactInfoList i{
+
+    padding: 0px 7px 0px 12px;
+}
+
+.pictureDiv img{
+
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+}

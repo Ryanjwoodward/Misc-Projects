@@ -1,0 +1,654 @@
+/*
+Author: Ryan Woodward
+Team: RAMM
+Project Name: Nodlehs
+Date: 
+Description: styleSheet for Ouroboros Project Management
+            System home page.
+*/
+
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Hahmlet', serif;
+}
+
+body{
+
+    background-color: #dbdbdb;
+}
+
+section{
+
+    background-color: #dbdbdb;
+}
+
+
+
+/*------------Header Section--------------*/
+.pageHeader{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(68,68,68,.7), rgba(68,68,68,.7)), 
+        url(Files/AZ-wallpaper_2NEW.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+
+    display: flex;
+    padding: 2%, 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+
+    width: 150px;
+}
+
+.navLinks{
+
+    flex: 1;
+    text-align: right;
+}
+
+.navLinks ul, li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    position: relative;
+
+}
+
+.navLinks ul, li, a{
+
+    color: #dbdbdb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navLinks ul, li::after{
+
+    content:'';
+    width: 0%;
+    height: 2px;
+    background:#de955e;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navLinks ul, li:hover::after{
+
+    width: 100%;
+}
+
+.bannerText{
+
+    width: 90%;
+    color: #dbdbdb;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.bannerText h1{
+
+    font-size: 62px;
+}
+
+.bannerText p{
+
+    margin: 10px 0px 40px;
+    font-size: 14px;
+    color: #dbdbdb;
+}
+
+.oButton{
+
+    padding: 12px 34px;
+    display: inline-block;
+    text-decoration: none;
+    color:#de955e;
+    border: 1px solid #de955e;
+    font-size: 16px;
+    background: rgba(222,149,94,.3);
+    position: relative;
+    cursor: pointer;
+}
+
+.oButton:hover{
+
+    border: 1px solid #dbdbdb;
+    color:#444444;
+    background: rgba(219,219,219,.4);
+    transition: 1s;
+}
+
+.navLinks ul{
+
+    padding: 0;
+    margin:0;
+    background:none;
+}
+
+nav .fa{
+
+    display: none;
+}
+
+@media(max-width: 700px){
+
+    .bannerText h1{
+
+        font-size: 30px;
+    }    
+
+    .navLinks ul, li, a{
+
+        color: #444444;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .navLinks ul, li{
+
+        display: block;
+    }
+
+    .navLinks{
+
+        position: absolute;
+        background: #de955e;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa{
+
+        display:  block;
+        color: #dbdbdb;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    
+    .navLinks ul{
+
+        padding: 30px;
+    }
+
+    /*-----Offers Section-------*/
+    .oRow{
+
+        flex-direction: column;
+    }
+}
+
+
+
+/*------offers---------*/
+.offers{
+
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    padding-top: 85px;
+}
+
+.h1Offers{
+
+    font-size: 36px;
+    font-weight: 600;
+    color: #444444;
+}
+
+p{
+
+    color: #444444;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+.oRow{
+
+    color: #444444;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offersColumn{
+
+    flex-basis: 31%;
+    background: rgba(222,149,93,.7);
+    border-radius: 7px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.h3Offers{
+
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.offersColumn:hover{
+
+    box-shadow: 0 0 20px 0px rgba(68,68,68,.5);
+}
+
+
+
+/*-----Approach to Offers------*/
+.approach{
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.approachColumn{
+
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.h1Approach{
+
+    color: #444444;
+}
+
+.approachColumn img{
+
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.titleLayer{
+
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.titleLayer:hover{
+
+    background: rgba(222,149,94,.85);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.titleLayer h3{
+
+    margin-bottom: 5px;
+    width: 100%;
+    font-weight: 800;
+    color: #444444;
+    font-size: 20px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+
+.titleLayer:hover h3{
+
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+/*------ Small About Section ------*/
+.aboutSect{
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutTitle{
+
+    color: #444444;
+}
+
+.aboutColumn{
+
+    flex-basis: 32%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.aboutColumn img{
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.about .oRow{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.aboutColumn .titleLayer:hover{
+
+    background: rgba(222,149,94,1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.titleLayer i{
+
+    color: #444444;
+    opacity: 1;
+    transform: translateX(500%);
+}
+
+#boxee2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    color: #444444;
+    background-color: rgba(219,219,219,1);
+    transform: translateX(-900%);
+    z-index: 3;
+    border-radius: 10px;
+    transition: .5s;
+    margin-top: 60px;
+    height: 250px;
+    width: 600px;
+}
+
+#boxesFa2{
+
+    transform: translateX(0);
+    transform: translateY(0px);
+    z-index: 9;
+    cursor: pointer;
+}
+
+#boxee1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    color: #444444;
+    background-color: rgba(219,219,219,1);
+    transform: translateX(-900%);
+    z-index: 2;
+    border-radius: 10px;
+    transition: .5s;
+    margin-top: 60px;
+    height: 150px;
+    width: 600px;
+}
+
+#boxesFa1{
+
+    transform: translateX(0);
+    transform: translateY(0px);
+    z-index: 9;
+    cursor: pointer;
+}
+
+#boxee3{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    color: #444444;
+    background-color: rgba(219,219,219,1);
+    transform: translateX(-900%);
+    z-index: 2;
+    border-radius: 10px;
+    transition: .5s;
+    margin-top: 60px;
+    height: 150px;
+    width: 600px;
+}
+
+#boxesFa3{
+
+    transform: translateX(0);
+    transform: translateY(0px);
+    z-index: 9;
+    cursor: pointer;
+}
+
+
+/*------ Small Navigation Section ------*/
+.contactSect{
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    color:#444444;
+}
+
+.contactTitle{
+
+    color: #444444;
+}
+
+.contactSect p{
+
+    max-width: 700px;
+}
+
+#contactLogos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactLogos div{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactSect .fa{
+
+    color: #de955e;
+    font-size: 50px;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contactSect .fa:hover{
+
+    box-shadow: 0 0 20px 0px rgba(68,68,68,.7);
+}
+
+#phoneP{
+
+    opacity: 0;
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+#emailP{
+
+    opacity: 0;
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+#addressP{
+
+    opacity: 0;
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+#contactButton{
+
+    background-color: #444444;
+}
+
+.cButtonDiv{
+
+    margin: 20px;
+}
+
+.cButton{
+
+    padding: 12px 34px;
+    display: inline-block;
+    text-decoration: none;
+    color:#444444;
+    border: 1px solid #444444;
+    font-size: 16px;
+    background: rgba(68,68,68,.3);
+    position: relative;
+    cursor: pointer;
+}
+
+.cButton:hover{
+
+    border: 1px solid #444444;
+    color:#444444;
+    background: rgba(222,149,93,.8);
+    transition: 1s;
+}
+
+
+/*------ Footer Section Styling ------*/
+.footerSect{
+
+    background-color: #444444;
+    margin-top: 200px;
+}
+
+#rowContainer{
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    color: #dbdbdb;
+    max-width: 1400px;
+    padding: 20px;
+}
+
+.footerUpper p{
+
+    color:#dbdbdb;
+}
+
+#socMedIconContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items:center;
+    color:#dbdbdb;
+    max-width: 400px;
+    transform: translateX(950px);
+}
+
+#socMedIconContainer .fa{
+
+    font-size: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.divider{
+    height:3px;
+    width: auto;
+    background-color: #dbdbdb;
+    color:#dbdbdb;
+    margin: 3px;
+}
+
+#footerLower{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    color:#dbdbdb;
+    justify-content: left;
+}
+
+#footerLower .fa{
+
+    font-size: 25px;
+    color: #dbdbdb;
+    opacity: .5;
+}
+
+
+#footerLower h4{
+
+    opacity: .5;
+}

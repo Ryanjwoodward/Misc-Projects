@@ -1,0 +1,52 @@
+<!--
+    Author: Ryan Woodward
+    Title: Indrik Password Manager
+    Team: Ouroboros Software Group
+    Description: This is the start up page for the password manager application, If the user has created an account then the user will
+                    simply be presented with a password entry form.
+
+    DEV NOTES:
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name= "viewport" content= "width=device-width, initial-scale= 1.0">
+        <meta http-quiz="X-UA-Compatible" content= "ie=edge">
+        <title>Password Manager</title>
+        <link rel= "stylesheet" href="mainStyle.css"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+        
+        <section id="primarySect" class="flex-container">
+
+            <img class="wallImage" src="Images/grayBackground.png">
+
+               
+            <div class="initContainer">
+                
+                <div id="formContainer" class="flex-container">
+                    
+                    <a>
+                    <img class="logoI" src="Images/red_gold_Indrik_Logo_adobespark.png">
+                    </a>
+
+                    <div id="fieldContainer" class="flex-container">
+
+                        <label class="loginFields" for="uname"><b>Username</b></label>
+                        <input class="loginFields" type="text" placeholder="Enter Username" name="uname" required>
+ 
+                        <label class="loginFields" for="psw"><b>Password</b></label>
+                        <input class="loginFields" type="password" placeholder="Enter Password" name="psw" required>
+                        <button class="logBtn">Login</button>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+    </body>
+</html>

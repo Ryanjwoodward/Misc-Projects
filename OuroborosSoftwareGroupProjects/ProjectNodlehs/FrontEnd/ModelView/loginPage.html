@@ -1,0 +1,55 @@
+<!--
+Author: Ryan Woodward
+Team: RAMM
+Project Name: Nodlehs
+Date:
+Description: Loging/Registration form page for Ouroboros  Project Management
+                System. THis page allows users to access their Teams and projects
+                and accounts. Or allows them to create account.
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name= "viewport" content= "width=device-width, initial-scale= 1.0">
+        <meta http-quiz="X-UA-Compatible" content= "ie=edge">
+        <title>Login to Ouroboros</title>
+        <link rel= "stylesheet" href="loginStyle.css"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+        
+        <div id="primaryContainer" class="flex-container">
+            <div class="backgroundImageContainer">
+                 <img src="Files/loginPageWall2.jpeg">
+             </div>
+ 
+            <div class="loginFormContainer">
+                
+                 <div class="loginForm">
+ 
+                     <a href="homePage.html">
+                     <img class="ouroborosLogo" src="Files/secondary logo.png">
+                     </a>
+ 
+                     <label class="loginFields" for="uname"><b>Username</b></label>
+                     <input class="loginFields" type="text" placeholder="Enter Username" name="uname" required>
+ 
+                     <label class="loginFields" for="psw"><b>Password</b></label>
+                     <input class="loginFields" type="password" placeholder="Enter Password" name="psw" required>
+         
+                     <div id="buttonContainer" class="flex-container">
+                         <button class="loginFields" type="submit">Login</button>
+                         <button class="loginFields" type="submit">Register</button>
+                     </div>
+ 
+                 </div>
+            </div>
+         </div>
+       
+
+        <script src="homeScript.js"></script>
+    </body>
+</html>

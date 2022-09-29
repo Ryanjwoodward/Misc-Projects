@@ -1,0 +1,35 @@
+HTML------------------------------------------------
+
+
+
+<div class="primaryContainer">
+            <div class="formContainer">
+
+                <div class="buttonContainer"></div>
+
+            </div>
+        </div>
+
+
+CSS-----------------------------------------------------------
+
+
+.primaryContainer{
+
+    height:97%;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    position: absolute;
+    background: url('azWallpaper2(2).jpg');
+}
+
+.formContainer{
+
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6%, auto;
+    background: #dbdbdb;
+    padding: 5px;
+}
